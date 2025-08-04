@@ -1,0 +1,61 @@
+{
+  "hash": "98f9ed8f",
+  "configHash": "be3d884a",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "ba564a36",
+  "optimized": {
+    "axios": {
+      "src": "../../src/node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "7a232fd4",
+      "needsInterop": false
+    },
+    "file-saver": {
+      "src": "../../src/node_modules/file-saver/dist/FileSaver.min.js",
+      "file": "file-saver.js",
+      "fileHash": "0ea3b2b5",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../src/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "848269a5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../src/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ec135c90",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../src/node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "73f7f958",
+      "needsInterop": false
+    },
+    "recharts": {
+      "src": "../../src/node_modules/recharts/es6/index.js",
+      "file": "recharts.js",
+      "fileHash": "fc3bbd33",
+      "needsInterop": false
+    },
+    "xlsx": {
+      "src": "../../src/node_modules/xlsx/xlsx.mjs",
+      "file": "xlsx.js",
+      "fileHash": "1aa55f73",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3MVFXOMS": {
+      "file": "chunk-3MVFXOMS.js"
+    },
+    "chunk-KCHVSRQX": {
+      "file": "chunk-KCHVSRQX.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
