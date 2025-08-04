@@ -1,0 +1,83 @@
+body {
+  background: #f4f6fa;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.card {
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.btn {
+  transition: all 0.2s;
+}
+.btn-success, .bg-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%) !important;
+  border: none;
+}
+.sidebar {
+  background: #fff;
+  border-right: 1px solid #e9ecef;
+}
+.nav-link.active {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%) !important;
+  color: #fff !important;
+}
+
+/* Formularios modernos */
+.form-control, .form-select {
+  border-radius: 1rem;
+  border: 1.5px solid #e0e7ef;
+  box-shadow: none;
+  transition: border-color 0.2s;
+  font-size: 1.05rem;
+  background: #f8fafc;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #43e97b;
+  box-shadow: 0 0 0 2px #43e97b33;
+  background: #fff;
+}
+label.form-label {
+  font-weight: 600;
+  color: #38b48e;
+  letter-spacing: 0.02em;
+}
+.btn {
+  border-radius: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-success, .btn-danger {
+  box-shadow: 0 2px 8px rgba(67,233,123,0.08);
+}
+.btn-success:hover {
+  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+  color: #fff;
+}
+
+/* Tablas modernas */
+.table {
+  border-radius: 1.25rem !important;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+}
+.table thead {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f8fafc;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #e6f9f1;
+  transition: background 0.2s;
+}
+.table td, .table th {
+  vertical-align: middle;
+  font-size: 1.05rem;
+}

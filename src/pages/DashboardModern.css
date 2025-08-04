@@ -1,0 +1,45 @@
+.card-metric {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  transition: transform 0.15s;
+}
+.card-metric:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 4px 24px rgba(67,233,123,0.12);
+}
+.icon-metric {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin: 0 auto;
+  color: #fff;
+}
+.bg-gradient-green {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+}
+.bg-gradient-blue {
+  background: linear-gradient(90deg, #0d6efd 0%, #43e97b 100%);
+}
+.bg-gradient-yellow {
+  background: linear-gradient(90deg, #ffc107 0%, #43e97b 100%);
+}
+.bg-gradient-purple {
+  background: linear-gradient(90deg, #6f42c1 0%, #43e97b 100%);
+}
+.bg-gradient-red {
+  background: linear-gradient(90deg, #dc3545 0%, #43e97b 100%);
+}
+.metric-label {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+}
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+}
